@@ -1,1 +1,1 @@
-docker run hello-world
+FROM ubuntu:latest
