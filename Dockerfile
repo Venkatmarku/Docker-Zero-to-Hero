@@ -8,3 +8,4 @@ COPY . /app
 RUN apt-get install && apt-get update -y python3 python3-pip
 #Set environment variable
 ENV NAME World
+
