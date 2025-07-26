@@ -4,3 +4,5 @@ b=20
 if [a le b]
 echo "its true"
 fi
+
+Division part
