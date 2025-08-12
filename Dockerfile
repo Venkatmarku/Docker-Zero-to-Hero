@@ -3,7 +3,7 @@ FROM ubuntu:latest
 WORKDIR /app
 
 # Copy the files from the host file sytem to the image file system
-COPY . /app
+COPY ..
 #Install the nessery packges
 RUN apt-get update && apt-get install -y python3 python3-pip
 #Set environment variable
