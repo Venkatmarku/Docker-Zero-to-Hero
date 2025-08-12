@@ -3,7 +3,7 @@ FROM ubuntu:latest
 #WORKDIR /app
 RUN apt-get update && apt-get install -y
 # Copy the files from the host file sytem to the image file system
-COPY ..
+COPY . .
 #Install the nessery packges
 
 #Set environment variable
